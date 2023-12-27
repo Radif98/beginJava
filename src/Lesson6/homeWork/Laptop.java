@@ -84,4 +84,8 @@ public class Laptop {
     {
         return "название - " + id + "; oбъем ЖД - " + volumeSDD + "; ОЗУ - " + ram + "; ОС - " + os + "; размер монитора - " + diagonal + "; цвет - " + color + "; цена - " + price;
     }
+
+    public String transString(Object x) {
+        return x.toString();
+    }
 }
